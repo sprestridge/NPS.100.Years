@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>100 Years of National Park Service</title>
+    <meta name="author" content="Dallas Barnes" />
+    <meta name="description" content="100 Years of National Park Service celebrates the story of how the National Park System became what it is today." />
+    <meta name="keywords"  content="national parks timeline, us history, yosemite national park, sequoia national park" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="../jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript" src="../jquery.fullPage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                anchors: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+                sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent', 'transparent'],
+                autoScrolling: false,
+                afterLoad: function(anchorLink, index){
+                    var loadedSection = $(this);
+                }
+            });
+            
+            $('#buttondn').click(function(){
+                $.fn.fullpage.moveSectionDown();
+            });
+            $('#buttonup').click(function(){
+                $.fn.fullpage.moveSectionUp();
+            });
+
+            $(document).keydown(function (e) {
+            var shiftPressed = e.shiftKey;
+            console.log(e.which);
+            switch (e.which) {
+                //up
+                case 38:
+                case 33:
+                    $.fn.fullpage.moveSectionUp();
+                    break;
+
+                //down
+                case 40:
+                case 34:
+                    $.fn.fullpage.moveSectionDown();
+                    break;
+
+            }
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="fullpage">
+    <div class="section" id="section0">
+        <div class="intro first">
+            <div class="svg-container">
+                <svg height="1200" width="1" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1872</span>
+            </div>
+            <h1>Yellowstone National Park Act</h1>
+            <div class="stars">
+                <img src="../svg/3-stars.svg">
+            </div>
+            <p>An act establishing Yellowstone National Park was signed into law by President Ulysses S. Grant on March 1, 1872. Officially titled "An Act to set apart a certain Tract of Land lying near the Head-waters of the Yellowstone River as a public Park," this landmark legislation created the first national park.
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="intro">
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1890</div>
+                    <div class="info">
+                        <div class="name"><h2>Yosemite</h2></div>
+                        <div class="state"><p>California</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1890</div>
+                    <div class="info">
+                        <div class="name"><h2>Sequoia</h2></div>
+                        <div class="state"><p>California</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1899</div>
+                    <div class="info">
+                        <div class="name"><h2>Mount Rainier</h2></div>
+                        <div class="state"><p>Washington</p></div>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1902</div>
+                    <div class="info">
+                        <div class="name"><h2>Crater Lake</h2></div>
+                        <div class="state"><p>Oregon</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="intro">
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1903</div>
+                    <div class="info">
+                        <div class="name"><h2>Wind Cave</h2></div>
+                        <div class="state"><p>South Dakota</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1906</div>
+                    <div class="info">
+                        <div class="name"><h2>Mesa Verde</h2></div>
+                        <div class="state"><p>Colorado</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1910</div>
+                    <div class="info">
+                        <div class="name"><h2>Glacier</h2></div>
+                        <div class="state"><p>Montana</p></div>
+                        <p>Soon after the establishment of the park on May 11, 1910, a number of hotels and chalets were constructed by the Great Northern Railway. These historic hotels and chalets are listed as National Historic Landmarks and a total of 350 locations are on the National Register of Historic Places.</p>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1915</div>
+                    <div class="info">
+                        <div class="name"><h2>Rocky Mountain</h2></div>
+                        <div class="state"><p>Colorado</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="intro">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1906</span>
+            </div>
+            <h1>Antiquities Act</h1>
+            <div class="stars">
+                <img src="../svg/2-stars.svg">
+            </div>
+            <p>The Antiquities Act, signed by President Theodore Roosevelt on June 8, 1906, grew out of a movement to protect the prehistoric cliff dwellings, pueblo ruins and early missions in the Southwest. It authorized Presidents to proclaim and reserve "historic landmarks, historic and prehistoric structures, and other objects of historic or scientific interest" on lands owned or controlled by the United States as "national monuments."
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="intro">
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1916</div>
+                    <div class="info">
+                        <div class="name"><h2>Lassen Volcanic</h2></div>
+                        <div class="state"><p>California</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1907</div>
+                    <div class="info">
+                        <div class="name"><h2>Hawaii Volcanoes</h2></div>
+                        <div class="state"><p>Hawaii</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1907</div>
+                    <div class="info">
+                        <div class="name"><h2>Haleakala</h2></div>
+                        <div class="state"><p>Hawaii</p></div>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1917</div>
+                    <div class="info">
+                        <div class="name"><h2>Denali</h2></div>
+                        <div class="state"><p>Alaska</p></div>
+                    </div>
+                </div>
+                <div class="item fiv">
+                    <div class="item-year">1919</div>
+                    <div class="info">
+                        <div class="name"><h2>Grand Canyon</h2></div>
+                        <div class="state"><p>Arizona</p></div>
+                    </div>
+                </div>
+                <div class="item six">
+                    <div class="item-year">1919</div>
+                    <div class="info">
+                        <div class="name"><h2>Zion</h2></div>
+                        <div class="state"><p>Utah</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section5">
+        <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="intro">
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1919</div>
+                    <div class="info">
+                        <div class="name"><h2>Acadia</h2></div>
+                        <div class="state"><p>Maine</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1921</div>
+                    <div class="info">
+                        <div class="name"><h2>Hot Springs</h2></div>
+                        <div class="state"><p>Arkansas</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1926</div>
+                    <div class="info">
+                        <div class="name"><h2>Shenandoah</h2></div>
+                        <div class="state"><p>Virginia</p></div>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1928</div>
+                    <div class="info">
+                        <div class="name"><h2>Bryce Canyon</h2></div>
+                        <div class="state"><p>Utah</p></div>
+                    </div>
+                </div>
+                <div class="item fiv">
+                    <div class="item-year">1929</div>
+                    <div class="info">
+                        <div class="name"><h2>Grand Teton</h2></div>
+                        <div class="state"><p>Wyoming</p></div>
+                    </div>
+                </div>
+                <div class="item six">
+                    <div class="item-year">1930</div>
+                    <div class="info">
+                        <div class="name"><h2>Carlsbad Caverns</h2></div>
+                        <div class="state"><p>New Mexico</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section6">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="intro">
+                <div class="date">
+                    <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                    <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                    </svg>
+                    <span>1933</span>
+                </div>
+                <h1>Reorg of 1933</h1>
+                <div class="stars">
+                    <img src="../svg/2-stars.svg">
+                </div>
+                <p>A major reorganization within President Franklin Roosevelt's executive branch in 1933 had a tremendous impact on the National Park Service. Specifically, two executive orders, effective August 10, 1933, transferred the War Department's parks and monuments to the National Park Service. In addition, the National Park Service received all the national monuments held by the Forest Service and the responsibility for virtually all monuments created thereafter.
+                </p>
+            </div>
+    </div>
+    <div class="section" id="section7">
+        <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="intro">
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1934</div>
+                    <div class="info">
+                        <div class="name"><h2>Everglades</h2></div>
+                        <div class="state"><p>Florida</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1934</div>
+                    <div class="info">
+                        <div class="name"><h2>Great Smoky Mountains </h2></div>
+                        <div class="state"><p>Tennessee</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section8">
+        <div class="intro">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1935</span>
+            </div>
+            <h1>Preservation of Historic Sites Act</h1>
+            <div class="stars">
+                <img src="../svg/2-stars.svg">
+            </div>
+            <p>The Historic Sites Act grew out of the National Park Service's desire for a stronger legal underpinning for its expanding historical programs and from recognition outside the Service of the need for greater federal assistance to historic properties. The Act declared "a national policy to preserve for public use historic sites, buildings and objects of national significance for the inspiration and benefit of the people of the United States." It assigned broad powers and duties to the Secretary of the Interior and the Service, to include conducting surveys of historic properties to determine which possess exceptional value as commemorating or illustrating U.S. history.
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section9">
+        <div class="intro">
+            <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+        </div>
+        <div class="list">
+                <div class="item one">
+                    <div class="item-year">1938</div>
+                    <div class="info">
+                        <div class="name"><h2>Olympic</h2></div>
+                        <div class="state"><p>Washington</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1940</div>
+                    <div class="info">
+                        <div class="name"><h2>Kings Canyon</h2></div>
+                        <div class="state"><p>California</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1940</div>
+                    <div class="info">
+                        <div class="name"><h2>Isle Royale</h2></div>
+                        <div class="state"><p>Michigan</p></div>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1941</div>
+                    <div class="info">
+                        <div class="name"><h2>Mammoth Cave</h2></div>
+                        <div class="state"><p>Kentucky</p></div>
+                    </div>
+                </div>
+                <div class="item fiv">
+                    <div class="item-year">1944</div>
+                    <div class="info">
+                        <div class="name"><h2>Big Bend</h2></div>
+                        <div class="state"><p>Texas</p></div>
+                    </div>
+                </div>
+                <div class="item six">
+                    <div class="item-year">1956</div>
+                    <div class="info">
+                        <div class="name"><h2>Virgin Islands</h2></div>
+                        <div class="state"><p>United States Virgin Islands</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section10">
+        <div class="intro">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1956</span>
+            </div>
+            <h1>Mission 66</h1>
+            <div class="stars">
+                <img src="../svg/2-stars.svg">
+            </div>
+            <p>Mission 66 was a 10-year program, initiated by National Park Service Director Conrad L. Wirth in 1956, to upgrade facilities, staffing, and resource management throughout the System by the 50th anniversary of the Service in 1966. Congress appropriated more than a billion dollars over the 10-year period for Mission 66 improvements. The legacy of the program included dozens of visitor centers, hundreds of employee residences, as well as the Mather and Albright employee training centers at Harpers Ferry and the Grand Canyon.
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section11">
+        <div class="intro">
+            <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+            </div>
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1956</div>
+                    <div class="info">
+                        <div class="name"><h2>Virgin Islands</h2></div>
+                        <div class="state"><p>United States Virgin Islands</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1962</div>
+                    <div class="info">
+                        <div class="name"><h2>Petrified Forest</h2></div>
+                        <div class="state"><p>Arizona</p></div>
+                    </div>
+                </div>
+                <div class="item thr">
+                    <div class="item-year">1964</div>
+                    <div class="info">
+                        <div class="name"><h2>Canyonlands</h2></div>
+                        <div class="state"><p>Utah</p></div>
+                    </div>
+                </div>
+                <div class="item fou">
+                    <div class="item-year">1966</div>
+                    <div class="info">
+                        <div class="name"><h2>Guadalupe Mountains</h2></div>
+                        <div class="state"><p>Texas</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section12">
+        <div class="intro">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1965</span>
+            </div>
+            <h1>Land and Water Conservation Fund Act</h1>
+            <div class="stars">
+                <img src="../svg/1-star.svg">
+            </div>
+            <p>The Land and Water Conservation Fund Act established a fund for acquiring new recreation lands either within or adjacent to existing park units or new parks. Money for the fund would come from surplus property sales, motorboat fuel taxes, and other sources. A portion of the money in the fund would come from fees charged at existing parks. The fund was administered by the Bureau of Outdoor Recreation, a new Interior bureau established in 1962.
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section13">
+        <div class="intro">
+            <div class="svg-container">
+            <svg height="400" width="450" class="line">
+              <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+            </svg>
+            </div>
+            <div class="list">
+                <div class="item one">
+                    <div class="item-year">1968</div>
+                    <div class="info">
+                        <div class="name"><h2>North Cascades</h2></div>
+                        <div class="state"><p>Washington</p></div>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="item-year">1968</div>
+                    <div class="info">
+                        <div class="name"><h2>Redwood</h2></div>
+                        <div class="state"><p>California</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section14">
+        <div class="intro">
+            <div class="svg-container">
+                <svg height="400" width="450" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <div class="date">
+                <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
+                <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
+                </svg>
+                <span>1969</span>
+            </div>
+            <h1>Volunteers in the Parks Act</h1>
+            <div class="stars">
+                <img src="../svg/3-stars.svg">
+            </div>
+            <p>This legislation authorized the Secretary of the Interior to establish a "volunteers in the parks" program to aid in interpretation functions or other visitor services or activities in and related to areas administered by the National Park Service. The legislation provided a vehicle that allowed the Service to utilize volunteer help and services. The number of volunteers and volunteers has consistently grown and has proven increasingly beneficial.
+            </p>
+        </div>
+    </div>
+    <div class="section" id="section15">
+        <div class="intro">
+            <h1>Just use </h1>
+            <p>autoScrolling:false</p>
+        </div>
+    </div>
+    <div class="section" id="section16">
+        <div class="intro">
+            <h1>Just use </h1>
+            <p>autoScrolling:false</p>
+        </div>
+    </div>
+    <div class="section" id="section17">
+        <div class="intro">
+            <h1>Just use </h1>
+            <p>autoScrolling:false</p>
+        </div>
+    </div>
+</div>
+<div id="right-content">
+</div>
+<div class="timeline">
+    <div class="year first">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year.first .stroke {
+            clip-path: url(#1872);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1872" d="M1,50.7c0-0.3,0-0.6,0.6-0.6h13.3V47c0-0.4,0.1-0.6,0.6-0.6H17c0.4,0,0.6,0.2,0.6,0.6v9.7
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.3H4.3l0.6,3.3c0.1,0.4-0.1,0.6-0.5,0.6H2.8c-0.4,0-0.6-0.2-0.7-0.6L1,50.7z
+                 M4.9,42.5c-2,0-3.9-1-3.9-5.2c0-4.2,1.9-5.2,3.9-5.2h1.6c1.2,0,2.1,0.5,2.6,1.8c0.5-1.4,1.4-2.1,2.6-2.1h2.2c2,0,3.9,1.3,3.9,5.5
+                c0,4.2-1.9,5.5-3.9,5.5h-2.2c-1.2,0-2.1-0.7-2.6-2.1c-0.5,1.3-1.4,1.8-2.6,1.8H4.9z M12.2,35c-1.2,0-1.8,0.7-1.8,2.2
+                c0,1.6,0.6,2.2,1.8,2.2h1.2c1.2,0,1.8-0.7,1.8-2.2c0-1.6-0.6-2.2-1.8-2.2H12.2z M5.4,35.2c-1.2,0-1.8,0.5-1.8,2c0,1.5,0.6,2,1.8,2H6
+                c1.2,0,1.8-0.5,1.8-2c0-1.5-0.6-2-1.8-2H5.4z M1.2,17.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.2,0,0.3,0,0.5,0.1L17,22.5
+                c0.3,0.1,0.6,0.3,0.6,0.8v2.4c0,0.4-0.2,0.6-0.6,0.4L3.9,20.2v7.4c0,0.4-0.2,0.6-0.6,0.6H1.8c-0.4,0-0.6-0.2-0.6-0.6V17.1z
+                 M14.9,2.6c0-0.4,0.1-0.6,0.6-0.6H17c0.4,0,0.6,0.2,0.6,0.6v9.7c0,0.4-0.2,0.6-0.6,0.6h-4.4c-1.4,0-1.8-0.8-2.2-1.6l-2.1-5
+                c-0.2-0.4-0.5-1-1.4-1H5.5c-1.2,0-1.8,0.8-1.8,2.4c0,1.6,0.6,2.3,1.8,2.3h0.9c0.4,0,0.6,0.1,0.6,0.6v2c0,0.4-0.2,0.6-0.6,0.6H4.9
+                c-2,0-3.9-1.3-3.9-5.5s1.9-5.6,3.9-5.6h1.9c2.3,0,3.3,1.3,3.7,2.3l1.7,4.1c0.3,0.7,0.5,1.1,1.4,1.1h1.4V2.6z"/>
+            </defs>
+            <clipPath id="1872">
+                <use xlink:href="#1872"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year second">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year.second .stroke {
+            clip-path: url(#1890);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1890" d="M1.5,50.7c0-0.3,0-0.6,0.6-0.6h13.1v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.7l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.2c-0.4,0-0.6-0.2-0.6-0.6L1.5,50.7
+                z M5.4,42.7c-2,0-3.9-1-3.9-5.1c0-4.1,1.9-5.1,3.9-5.1h1.6c1.2,0,2,0.5,2.5,1.8c0.5-1.4,1.4-2,2.5-2h2.2c2,0,3.9,1.2,3.9,5.4
+                c0,4.2-1.9,5.4-3.9,5.4H12c-1.2,0-2-0.6-2.5-2c-0.5,1.2-1.4,1.8-2.5,1.8H5.4z M12.5,35.3c-1.2,0-1.7,0.7-1.7,2.2
+                c0,1.6,0.5,2.2,1.7,2.2h1.2c1.2,0,1.8-0.6,1.8-2.2c0-1.5-0.6-2.2-1.8-2.2H12.5z M5.8,35.6c-1.2,0-1.8,0.5-1.8,2c0,1.5,0.6,2,1.8,2
+                h0.6c1.2,0,1.8-0.5,1.8-2c0-1.5-0.6-2-1.8-2H5.8z M14.2,17.7c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.3-3.8,5.3h-0.6c-0.4,0-0.6-0.2-0.6-0.6
+                v-2c0-0.4,0.2-0.5,0.6-0.5h0.2c1.1,0,1.7-0.6,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,5-3.9,5H5.4
+                c-2,0-3.9-1.3-3.9-5.4c0-4.1,1.9-5.4,3.9-5.4H14.2z M5.8,20.8c-1.2,0-1.8,0.7-1.8,2.2c0,1.6,0.6,2.3,1.8,2.3h1.4
+                C8.4,25.3,9,24.6,9,23c0-1.5-0.6-2.2-1.7-2.2H5.8z M5.4,14c-2,0-3.9-1.4-3.9-5.5C1.5,4.4,3.4,3,5.4,3h8.8c2,0,3.9,1.4,3.9,5.5
+                c0,4.2-1.9,5.5-3.9,5.5H5.4z M5.9,6.2C4.7,6.2,4.1,7,4.1,8.5c0,1.6,0.6,2.3,1.8,2.3h7.6c1.2,0,1.8-0.8,1.8-2.3
+                c0-1.5-0.6-2.3-1.8-2.3H5.9z"/>
+            </defs>
+            <clipPath id="1890">
+                <use xlink:href="#1890"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year third">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1903);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1903" d="M1.7,50.1c0-0.3,0-0.6,0.6-0.6h12.9v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,50.1
+                z M14.2,31.8c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.9-5.3,3.8-5.3H14.2z M5.9,34.9c-1.1,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H5.9z M5.5,28.2c-2,0-3.8-1.4-3.8-5.5c0-4.1,1.9-5.5,3.8-5.5h8.7c2,0,3.8,1.4,3.8,5.5c0,4.1-1.9,5.5-3.8,5.5
+                H5.5z M6.1,20.4c-1.2,0-1.8,0.8-1.8,2.3c0,1.5,0.6,2.3,1.8,2.3h7.6c1.2,0,1.8-0.8,1.8-2.3c0-1.5-0.6-2.3-1.8-2.3H6.1z M8.3,8.6
+                c0-1.6-0.6-2.3-1.7-2.3H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h0.3c0.4,0,0.6,0.2,0.6,0.6v1.9c0,0.4-0.2,0.5-0.6,0.5H5.5
+                c-2,0-3.8-1.1-3.8-5.3c0-4.2,1.8-5.2,3.7-5.2h1.7c1.2,0,2,0.4,2.4,1.8C10,3.5,11,3,12.2,3h2.1C16.2,3,18,4.2,18,8.4
+                c0,4.2-1.9,5.4-3.8,5.4h-0.8c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3c1.1,0,1.7-0.8,1.7-2.3c0-1.5-0.6-2.3-1.7-2.3
+                h-1.1c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H8.9c-0.4,0-0.6-0.2-0.6-0.6V8.6z"/>
+            </defs>
+            <clipPath id="1903">
+                <use xlink:href="#1903"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year fourth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1906);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1906" d="M1.7,50.9c0-0.3,0-0.6,0.6-0.6h13.1v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.6
+                c0,0.4-0.2,0.6-0.6,0.6H16c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,50.9z
+                 M14.4,32.2c1.9,0,3.9,1.2,3.9,5.4s-1.9,5.3-3.9,5.3h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5H14
+                c1.1,0,1.7-0.6,1.7-2.2c0-1.6-0.6-2.2-1.7-2.2h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,5-3.9,5H5.6c-2,0-3.9-1.3-3.9-5.4
+                c0-4.1,1.9-5.4,3.9-5.4H14.4z M6,35.4c-1.2,0-1.8,0.7-1.8,2.2c0,1.6,0.6,2.3,1.8,2.3h1.4c1.2,0,1.8-0.7,1.8-2.3
+                c0-1.5-0.6-2.2-1.7-2.2H6z M5.6,28.6c-2,0-3.9-1.4-3.9-5.6c0-4.1,1.9-5.6,3.9-5.6h8.8c2,0,3.9,1.4,3.9,5.6c0,4.2-1.9,5.6-3.9,5.6
+                H5.6z M6.2,20.7c-1.2,0-1.8,0.8-1.8,2.3c0,1.6,0.6,2.3,1.8,2.3h7.7c1.2,0,1.8-0.8,1.8-2.3c0-1.5-0.6-2.3-1.8-2.3H6.2z M5.6,13.8
+                c-1.9,0-3.9-1.2-3.9-5.4s1.9-5.3,3.9-5.3h0.6c0.4,0,0.6,0.2,0.6,0.6v2c0,0.4-0.2,0.5-0.6,0.5H6c-1.1,0-1.7,0.6-1.7,2.2
+                c0,1.6,0.6,2.2,1.7,2.2h2.9C8.5,10,8.2,9.1,8.2,8c0-3.6,1.9-5,3.9-5h2.3c2,0,3.9,1.3,3.9,5.4c0,4.1-1.9,5.4-3.9,5.4H5.6z M12.6,6.2
+                c-1.2,0-1.8,0.7-1.8,2.2c0,1.5,0.6,2.2,1.6,2.2h1.5c1.2,0,1.8-0.7,1.8-2.2c0-1.6-0.6-2.2-1.8-2.2H12.6z"/>
+            </defs>
+            <clipPath id="1906">
+                <use xlink:href="#1906"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year fifth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1916);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1916" d="M1.8,49.3c0-0.3,0-0.6,0.6-0.6h13v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H5l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.5c-0.4,0-0.6-0.2-0.6-0.6L1.8,49.3z
+                 M14.4,30.9c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.9,4.9H5.6c-2,0-3.8-1.2-3.8-5.4
+                c0-4.1,1.9-5.3,3.8-5.3H14.4z M6.1,34c-1.2,0-1.7,0.7-1.7,2.2c0,1.6,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H6.1z M1.8,20.5c0-0.3,0-0.6,0.6-0.6h13v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H5l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.5c-0.4,0-0.6-0.2-0.6-0.6L1.8,20.5z
+                 M5.6,12.7c-1.9,0-3.8-1.2-3.8-5.3s1.9-5.2,3.8-5.2h0.6c0.4,0,0.6,0.2,0.6,0.6v2c0,0.4-0.2,0.5-0.6,0.5H6.1C5,5.2,4.3,5.8,4.3,7.4
+                c0,1.5,0.6,2.2,1.7,2.2h2.9C8.5,8.9,8.2,8.1,8.2,6.9c0-3.6,1.9-4.9,3.9-4.9h2.3c2,0,3.8,1.2,3.8,5.4c0,4.1-1.9,5.3-3.8,5.3H5.6z
+                 M12.5,5.1c-1.2,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.6,2.2h1.5c1.2,0,1.8-0.7,1.8-2.2c0-1.6-0.6-2.2-1.8-2.2H12.5z"/>
+            </defs>
+            <clipPath id="1916">
+                <use xlink:href="#1916"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year sixth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1919);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1919" d="M1.7,49.5c0-0.3,0-0.6,0.6-0.6h13v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,49.5
+                z M14.3,31.1c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1H11c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.9,4.9H5.5c-2,0-3.8-1.2-3.8-5.4
+                c0-4.1,1.9-5.3,3.8-5.3H14.3z M6,34.2c-1.2,0-1.7,0.7-1.7,2.2c0,1.6,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H6z M1.7,20.6c0-0.3,0-0.6,0.6-0.6h13V17c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,20.6
+                z M14.3,2.2c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1H11c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.9,4.9H5.5c-2,0-3.8-1.2-3.8-5.4
+                c0-4.1,1.9-5.3,3.8-5.3H14.3z M6,5.4C4.8,5.4,4.2,6,4.2,7.5c0,1.6,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2
+                H6z"/>
+            </defs>
+            <clipPath id="1919">
+                <use xlink:href="#1919"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year seventh">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1933);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1933" d="M1.7,49.2c0-0.3,0-0.6,0.6-0.6h12.9v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6V55
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,49.2
+                z M14.2,30.9c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.8-5.3,3.8-5.3H14.2z M5.9,34c-1.1,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H5.9z M8.3,22.1c0-1.6-0.6-2.3-1.7-2.3H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h0.3
+                c0.4,0,0.6,0.2,0.6,0.6v1.9c0,0.4-0.2,0.5-0.6,0.5H5.5c-2,0-3.8-1.1-3.8-5.3c0-4.1,1.8-5.2,3.7-5.2h1.7c1.2,0,2,0.4,2.4,1.8
+                c0.5-1.5,1.5-2,2.7-2h2.1c1.9,0,3.7,1.2,3.7,5.4c0,4.2-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3
+                c1.1,0,1.7-0.8,1.7-2.3c0-1.5-0.6-2.3-1.7-2.3h-1.1c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H8.9c-0.4,0-0.6-0.2-0.6-0.6
+                V22.1z M8.3,7.8c0-1.6-0.6-2.3-1.7-2.3H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h0.3c0.4,0,0.6,0.2,0.6,0.6v1.9
+                c0,0.4-0.2,0.5-0.6,0.5H5.5c-2,0-3.8-1.1-3.8-5.3c0-4.1,1.8-5.2,3.7-5.2h1.7c1.2,0,2,0.4,2.4,1.8c0.5-1.5,1.5-2,2.7-2h2.1
+                c1.9,0,3.7,1.2,3.7,5.4c0,4.2-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3c1.1,0,1.7-0.8,1.7-2.3
+                c0-1.5-0.6-2.3-1.7-2.3h-1.1c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H8.9c-0.4,0-0.6-0.2-0.6-0.6V7.8z"/>
+            </defs>
+            <clipPath id="1933">
+                <use xlink:href="#1933"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year eighth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1934);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1934" d="M1.7,50c0-0.3,0-0.6,0.6-0.6h13.1v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,50z
+                 M14.3,31.5c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.3-3.8,5.3h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2H11c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,5-3.9,5H5.5c-2,0-3.9-1.3-3.9-5.4
+                c0-4.1,1.9-5.4,3.9-5.4H14.3z M6,34.7c-1.2,0-1.8,0.7-1.8,2.2c0,1.6,0.6,2.3,1.8,2.3h1.4c1.2,0,1.8-0.7,1.8-2.3
+                c0-1.5-0.6-2.2-1.7-2.2H6z M8.4,22.6c0-1.6-0.6-2.3-1.8-2.3H6c-1.2,0-1.8,0.6-1.8,2.2c0,1.6,0.6,2.2,1.8,2.2h0.3
+                c0.4,0,0.6,0.2,0.6,0.6v2c0,0.4-0.2,0.5-0.6,0.5H5.5c-2,0-3.9-1.1-3.9-5.3c0-4.2,1.8-5.3,3.8-5.3h1.7c1.2,0,2,0.5,2.5,1.8
+                c0.5-1.5,1.5-2,2.7-2h2.1c2,0,3.8,1.2,3.8,5.4c0,4.2-1.9,5.5-3.9,5.5h-0.8c-0.4,0-0.6-0.1-0.6-0.6v-2c0-0.4,0.2-0.6,0.6-0.6h0.3
+                c1.2,0,1.8-0.8,1.8-2.4c0-1.6-0.6-2.3-1.8-2.3h-1.2c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H9c-0.4,0-0.6-0.2-0.6-0.6
+                V22.6z M10.9,10.4V5.9H2.5c-0.4,0-0.6-0.1-0.6-0.6V3.3c0-0.4,0.2-0.6,0.6-0.6h14.9c0.4,0,0.6,0.1,0.6,0.6v2.1c0,0.4-0.2,0.6-0.6,0.6
+                h-3.8v7.2c0,0.4-0.1,0.6-0.6,0.6h-1.4c-0.2,0-0.4,0-0.5-0.1L2.5,11c-0.4-0.1-0.6-0.3-0.6-0.7V8.2c0-0.4,0.2-0.5,0.6-0.4L10.9,10.4z"
+                />
+            </defs>
+            <clipPath id="1934">
+                <use xlink:href="#1934"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year ninth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1935);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1935" d="M1.7,49.6c0-0.3,0-0.6,0.6-0.6h12.8v-3c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.3
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.8l0.6,3.1c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,49.6
+                z M14.1,31.4c1.9,0,3.8,1.2,3.8,5.2s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.4,0.7,2.6c0,3.5-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4,1.8-5.3,3.8-5.3H14.1z M5.9,34.5c-1.1,0-1.7,0.7-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h1.3c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.1-1.7-2.1H5.9z M8.3,22.7c0-1.6-0.6-2.3-1.7-2.3H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h0.3
+                c0.4,0,0.6,0.2,0.6,0.6v1.9c0,0.4-0.2,0.5-0.6,0.5H5.5c-2,0-3.8-1.1-3.8-5.2c0-4.1,1.8-5.2,3.7-5.2H7c1.2,0,2,0.4,2.4,1.7
+                c0.5-1.5,1.5-2,2.7-2h2.1c1.9,0,3.7,1.2,3.7,5.3c0,4.2-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3
+                c1.1,0,1.7-0.8,1.7-2.3c0-1.5-0.6-2.3-1.7-2.3h-1.1c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H8.8c-0.4,0-0.6-0.2-0.6-0.6
+                V22.7z M1.9,3.8c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v5.9h3V8.2c0-4,1.7-5.4,3.7-5.4h2.9c2,0,3.8,1.2,3.8,5.4
+                s-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6V11c0-0.4,0.2-0.6,0.6-0.6h0.3c1.2,0,1.7-0.7,1.7-2.3c0-1.6-0.6-2.3-1.7-2.3h-2
+                c-1,0-1.6,0.7-1.6,2.3v4.2c0,0.4-0.2,0.5-0.6,0.5h-7c-0.4,0-0.6-0.1-0.6-0.5V3.8z"/>
+            </defs>
+            <clipPath id="1935">
+                <use xlink:href="#1935"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year tenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1938);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1938" d="M1.7,49.9c0-0.3,0-0.6,0.6-0.6h12.8v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.1c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,49.9
+                z M14.1,31.7c1.9,0,3.8,1.2,3.8,5.2s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.4,0.7,2.6c0,3.5-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.8-5.3,3.8-5.3H14.1z M5.9,34.8c-1.1,0-1.7,0.7-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.1-1.7-2.1H5.9z M8.3,23c0-1.6-0.6-2.3-1.7-2.3H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h0.3
+                c0.4,0,0.6,0.2,0.6,0.6v1.9c0,0.4-0.2,0.5-0.6,0.5H5.5c-2,0-3.8-1.1-3.8-5.2c0-4.1,1.8-5.2,3.7-5.2H7c1.2,0,2,0.4,2.4,1.7
+                c0.5-1.5,1.5-2,2.7-2h2.1c1.9,0,3.7,1.2,3.7,5.4c0,4.2-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3
+                c1.1,0,1.7-0.8,1.7-2.3c0-1.5-0.6-2.3-1.7-2.3h-1.1c-1.2,0-1.7,0.7-1.7,2.3v1.8c0,0.4-0.2,0.6-0.6,0.6H8.9c-0.4,0-0.6-0.2-0.6-0.6
+                V23z M5.5,13.4c-2,0-3.8-1-3.8-5c0-4.1,1.8-5,3.8-5H7c1.1,0,2,0.5,2.5,1.7c0.5-1.4,1.3-2,2.5-2h2.1c2,0,3.8,1.2,3.8,5.3
+                c0,4.1-1.8,5.3-3.8,5.3H12c-1.2,0-2-0.6-2.5-2C9,12.9,8.2,13.4,7,13.4H5.5z M12.5,6.2c-1.2,0-1.7,0.7-1.7,2.2c0,1.5,0.5,2.2,1.7,2.2
+                h1.2c1.2,0,1.7-0.6,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2H12.5z M5.9,6.4c-1.2,0-1.7,0.5-1.7,2c0,1.5,0.6,2,1.7,2h0.6c1.2,0,1.7-0.5,1.7-2
+                c0-1.5-0.6-2-1.7-2H5.9z"/>
+            </defs>
+            <clipPath id="1938">
+                <use xlink:href="#1938"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year eleventh">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1956);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1956" d="M2.1,49.1c0-0.3,0-0.6,0.6-0.6h12.9v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H5.2l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.8c-0.4,0-0.6-0.2-0.6-0.6L2.1,49.1
+                z M14.6,30.8c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.8,4.9H5.9c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.8-5.3,3.8-5.3H14.6z M6.3,34c-1.1,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H6.3z M2.2,17.5c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v5.9h3.1v-1.6c0-4,1.7-5.4,3.7-5.4h2.9
+                c2,0,3.8,1.2,3.8,5.4s-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3c1.2,0,1.8-0.7,1.8-2.3
+                c0-1.6-0.6-2.3-1.8-2.3h-2c-1.1,0-1.6,0.7-1.6,2.3V26c0,0.4-0.2,0.5-0.6,0.5h-7c-0.4,0-0.6-0.1-0.6-0.5V17.5z M5.9,12.8
+                c-1.9,0-3.8-1.2-3.8-5.3S4,2.3,5.9,2.3h0.6C6.9,2.3,7,2.5,7,2.9v1.9c0,0.4-0.2,0.5-0.6,0.5H6.3C5.2,5.4,4.6,6,4.6,7.5
+                c0,1.5,0.6,2.2,1.7,2.2h2.9C8.7,9,8.4,8.2,8.4,7c0-3.6,1.9-4.9,3.8-4.9h2.3c2,0,3.8,1.2,3.8,5.3c0,4.1-1.8,5.3-3.8,5.3H5.9z
+                 M12.7,5.3c-1.2,0-1.7,0.7-1.7,2.2c0,1.4,0.6,2.2,1.6,2.2h1.5c1.2,0,1.8-0.7,1.8-2.2c0-1.5-0.6-2.2-1.8-2.2H12.7z"/>
+            </defs>
+            <clipPath id="1956">
+                <use xlink:href="#1956"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year twelfth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1956);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1956" d="M2.1,49.1c0-0.3,0-0.6,0.6-0.6h12.9v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H5.2l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.8c-0.4,0-0.6-0.2-0.6-0.6L2.1,49.1
+                z M14.6,30.8c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.8,4.9H5.9c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.8-5.3,3.8-5.3H14.6z M6.3,34c-1.1,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H6.3z M2.2,17.5c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v5.9h3.1v-1.6c0-4,1.7-5.4,3.7-5.4h2.9
+                c2,0,3.8,1.2,3.8,5.4s-1.8,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6v-1.9c0-0.4,0.2-0.6,0.6-0.6h0.3c1.2,0,1.8-0.7,1.8-2.3
+                c0-1.6-0.6-2.3-1.8-2.3h-2c-1.1,0-1.6,0.7-1.6,2.3V26c0,0.4-0.2,0.5-0.6,0.5h-7c-0.4,0-0.6-0.1-0.6-0.5V17.5z M5.9,12.8
+                c-1.9,0-3.8-1.2-3.8-5.3S4,2.3,5.9,2.3h0.6C6.9,2.3,7,2.5,7,2.9v1.9c0,0.4-0.2,0.5-0.6,0.5H6.3C5.2,5.4,4.6,6,4.6,7.5
+                c0,1.5,0.6,2.2,1.7,2.2h2.9C8.7,9,8.4,8.2,8.4,7c0-3.6,1.9-4.9,3.8-4.9h2.3c2,0,3.8,1.2,3.8,5.3c0,4.1-1.8,5.3-3.8,5.3H5.9z
+                 M12.7,5.3c-1.2,0-1.7,0.7-1.7,2.2c0,1.4,0.6,2.2,1.6,2.2h1.5c1.2,0,1.8-0.7,1.8-2.2c0-1.5-0.6-2.2-1.8-2.2H12.7z"/>
+            </defs>
+            <clipPath id="1956">
+                <use xlink:href="#1956"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year thirteenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1965);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1965" d="M1.7,48.8c0-0.3,0-0.6,0.6-0.6h12.9v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,48.8
+                z M14.2,30.5c1.9,0,3.8,1.2,3.8,5.3S16.1,41,14.2,41h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.9-5.3,3.8-5.3H14.2z M5.9,33.6c-1.1,0-1.7,0.7-1.7,2.2C4.2,37.3,4.8,38,6,38h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H5.9z M5.5,26.8c-1.9,0-3.8-1.2-3.8-5.3s1.9-5.2,3.8-5.2h0.6c0.4,0,0.6,0.2,0.6,0.6v1.9
+                c0,0.4-0.2,0.5-0.6,0.5H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h2.9C8.4,23,8.1,22.2,8.1,21c0-3.6,1.9-4.9,3.8-4.9h2.3
+                c2,0,3.8,1.2,3.8,5.3c0,4.1-1.9,5.3-3.8,5.3H5.5z M12.3,19.3c-1.2,0-1.7,0.7-1.7,2.2c0,1.5,0.6,2.2,1.6,2.2h1.5
+                c1.2,0,1.8-0.7,1.8-2.2c0-1.5-0.6-2.2-1.8-2.2H12.3z M1.9,2.8c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v5.9h3.1V7.1
+                c0-4,1.7-5.4,3.7-5.4h2.9c2,0,3.8,1.2,3.8,5.4s-1.9,5.4-3.8,5.4h-0.7c-0.4,0-0.6-0.1-0.6-0.6V10c0-0.4,0.2-0.6,0.6-0.6h0.3
+                c1.2,0,1.8-0.7,1.8-2.3c0-1.6-0.6-2.3-1.8-2.3h-2c-1.1,0-1.6,0.7-1.6,2.3v4.2c0,0.4-0.2,0.5-0.6,0.5h-7c-0.4,0-0.6-0.1-0.6-0.5V2.8z
+                "/>
+            </defs>
+            <clipPath id="1965">
+                <use xlink:href="#1965"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year fourteenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1968);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1968" d="M1.7,48.9c0-0.3,0-0.6,0.6-0.6h12.8v-3c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.4
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.1c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,48.9
+                z M14.1,30.7c1.9,0,3.8,1.2,3.8,5.2s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-1.9c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.8c0.4,0.6,0.7,1.4,0.7,2.6c0,3.5-1.9,4.9-3.8,4.9H5.5c-2,0-3.8-1.2-3.8-5.3
+                c0-4.1,1.8-5.3,3.8-5.3H14.1z M5.9,33.8c-1.1,0-1.7,0.7-1.7,2.1c0,1.5,0.6,2.2,1.7,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.1-1.7-2.1H5.9z M5.5,26.9c-1.9,0-3.8-1.2-3.8-5.2s1.9-5.2,3.8-5.2h0.6c0.4,0,0.6,0.2,0.6,0.6v1.9
+                c0,0.4-0.2,0.5-0.6,0.5H5.9c-1.1,0-1.7,0.6-1.7,2.1c0,1.5,0.6,2.1,1.7,2.1h2.8C8.3,23.2,8,22.4,8,21.2c0-3.6,1.9-4.9,3.8-4.9h2.3
+                c2,0,3.8,1.2,3.8,5.3c0,4.1-1.8,5.3-3.8,5.3H5.5z M12.3,19.5c-1.2,0-1.7,0.7-1.7,2.2c0,1.4,0.6,2.2,1.6,2.2h1.5
+                c1.2,0,1.7-0.7,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2H12.3z M5.5,12.5c-2,0-3.8-1-3.8-5c0-4.1,1.8-5,3.8-5H7c1.1,0,2,0.5,2.5,1.7
+                c0.5-1.4,1.3-2,2.5-2h2.1c2,0,3.8,1.2,3.8,5.3c0,4.1-1.8,5.3-3.8,5.3H12c-1.2,0-2-0.6-2.5-2C9,11.9,8.2,12.5,7,12.5H5.5z M12.5,5.3
+                c-1.2,0-1.7,0.7-1.7,2.2c0,1.5,0.5,2.2,1.7,2.2h1.2c1.2,0,1.7-0.6,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2H12.5z M5.9,5.5
+                c-1.2,0-1.7,0.5-1.7,2c0,1.5,0.6,2,1.7,2h0.6c1.2,0,1.7-0.5,1.7-2c0-1.5-0.6-2-1.7-2H5.9z"/>
+            </defs>
+            <clipPath id="1968">
+                <use xlink:href="#1968"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year fifteenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1969);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1969" d="M1.7,50.5c0-0.3,0-0.6,0.6-0.6h13.1v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.6
+                c0,0.4-0.2,0.6-0.6,0.6H16c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,50.5z
+                 M14.4,31.8c1.9,0,3.9,1.2,3.9,5.4s-1.9,5.3-3.9,5.3h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5H14
+                c1.1,0,1.7-0.6,1.7-2.2c0-1.6-0.6-2.2-1.7-2.2h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,5-3.9,5H5.6c-2,0-3.9-1.3-3.9-5.4
+                c0-4.2,1.9-5.4,3.9-5.4H14.4z M6,35c-1.2,0-1.8,0.7-1.8,2.2c0,1.6,0.6,2.3,1.8,2.3h1.4c1.2,0,1.8-0.7,1.8-2.3c0-1.5-0.6-2.2-1.7-2.2
+                H6z M5.5,28c-1.9,0-3.9-1.2-3.9-5.4s1.9-5.3,3.9-5.3h0.6c0.4,0,0.6,0.2,0.6,0.6v2c0,0.4-0.2,0.5-0.6,0.5H6c-1.1,0-1.7,0.6-1.7,2.2
+                c0,1.6,0.6,2.2,1.7,2.2h2.9c-0.4-0.6-0.7-1.5-0.7-2.7c0-3.7,1.9-5,3.9-5h2.3c2,0,3.9,1.3,3.9,5.4c0,4.2-1.9,5.4-3.9,5.4H5.5z
+                 M12.5,20.3c-1.2,0-1.8,0.7-1.8,2.2c0,1.5,0.6,2.2,1.6,2.2h1.5c1.2,0,1.8-0.7,1.8-2.2c0-1.6-0.6-2.2-1.8-2.2H12.5z M14.4,2.6
+                c1.9,0,3.9,1.2,3.9,5.4s-1.9,5.3-3.9,5.3h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5H14c1.1,0,1.7-0.6,1.7-2.2
+                c0-1.6-0.6-2.2-1.7-2.2h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,5-3.9,5H5.6c-2,0-3.9-1.3-3.9-5.4c0-4.2,1.9-5.4,3.9-5.4H14.4z
+                 M6,5.8C4.8,5.8,4.2,6.4,4.2,8c0,1.6,0.6,2.3,1.8,2.3h1.4c1.2,0,1.8-0.7,1.8-2.3c0-1.5-0.6-2.2-1.7-2.2H6z"/>
+            </defs>
+            <clipPath id="1969">
+                <use xlink:href="#1969"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year sixteenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1971);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1971" d="M1.7,51c0-0.3,0-0.6,0.6-0.6h13v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,51z
+                 M14.3,32.4c1.9,0,3.8,1.2,3.8,5.3S16.2,43,14.3,43h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.2c0-1.5-0.6-2.2-1.7-2.2H11c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.9,4.9H5.5c-2,0-3.9-1.3-3.9-5.4
+                c0-4.1,1.9-5.4,3.9-5.4H14.3z M6,35.6c-1.2,0-1.8,0.7-1.8,2.2C4.2,39.3,4.8,40,6,40h1.4c1.2,0,1.8-0.7,1.8-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H6z M1.9,18.1c0-0.4,0.1-0.6,0.6-0.6h1.4c0.2,0,0.3,0,0.5,0.1l13,5.7c0.3,0.1,0.6,0.3,0.6,0.8v2.3
+                c0,0.4-0.2,0.6-0.6,0.4L4.5,21.1v7.3c0,0.4-0.2,0.6-0.6,0.6H2.4c-0.4,0-0.6-0.2-0.6-0.6V18.1z M1.7,7.5c0-0.3,0-0.6,0.6-0.6h13V3.8
+                c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.9l0.6,3.2
+                c0.1,0.4-0.1,0.6-0.5,0.6H3.4c-0.4,0-0.6-0.2-0.6-0.6L1.7,7.5z"/>
+            </defs>
+            <clipPath id="1971">
+                <use xlink:href="#1971"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year seventeenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#1980);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="1980" d="M1.5,50c0-0.3,0-0.6,0.6-0.6h13v-3.1c0-0.4,0.1-0.6,0.6-0.6h1.5c0.4,0,0.6,0.2,0.6,0.6v9.5
+                c0,0.4-0.2,0.6-0.6,0.6h-1.5c-0.4,0-0.6-0.2-0.6-0.6v-3.2H4.7l0.6,3.2c0.1,0.4-0.1,0.6-0.5,0.6H3.2c-0.4,0-0.6-0.2-0.6-0.6L1.5,50z
+                 M14.1,31.6c1.9,0,3.8,1.2,3.8,5.3s-1.9,5.2-3.8,5.2h-0.6c-0.4,0-0.6-0.2-0.6-0.6v-2c0-0.4,0.2-0.5,0.6-0.5h0.2
+                c1.1,0,1.7-0.6,1.7-2.1c0-1.5-0.6-2.1-1.7-2.1h-2.9c0.4,0.6,0.7,1.5,0.7,2.6c0,3.6-1.9,4.9-3.9,4.9H5.3c-2,0-3.8-1.3-3.8-5.4
+                c0-4.1,1.9-5.3,3.8-5.3H14.1z M5.8,34.7c-1.2,0-1.7,0.7-1.7,2.2c0,1.6,0.6,2.2,1.8,2.2h1.4c1.2,0,1.7-0.7,1.7-2.2
+                c0-1.5-0.6-2.2-1.7-2.2H5.8z M5.3,27.5c-2,0-3.8-1-3.8-5.1c0-4.1,1.9-5.1,3.8-5.1h1.6c1.2,0,2,0.5,2.5,1.8c0.5-1.4,1.3-2,2.5-2h2.1
+                c2,0,3.8,1.2,3.8,5.3c0,4.1-1.9,5.3-3.8,5.3h-2.1c-1.2,0-2-0.6-2.5-2c-0.5,1.2-1.3,1.8-2.5,1.8H5.3z M12.4,20.2
+                c-1.2,0-1.7,0.7-1.7,2.2c0,1.6,0.5,2.2,1.7,2.2h1.2c1.2,0,1.8-0.6,1.8-2.2c0-1.5-0.6-2.2-1.8-2.2H12.4z M5.8,20.5
+                c-1.2,0-1.8,0.5-1.8,2c0,1.5,0.6,2,1.8,2h0.6c1.2,0,1.8-0.5,1.8-2c0-1.5-0.6-2-1.8-2H5.8z M5.3,13.5c-2,0-3.8-1.4-3.8-5.5
+                c0-4.1,1.9-5.5,3.8-5.5h8.7c2,0,3.8,1.4,3.8,5.5c0,4.1-1.9,5.5-3.8,5.5H5.3z M5.9,5.7C4.7,5.7,4.1,6.5,4.1,8c0,1.6,0.6,2.3,1.8,2.3
+                h7.6c1.2,0,1.8-0.8,1.8-2.3c0-1.5-0.6-2.3-1.8-2.3H5.9z"/>
+            </defs>
+            <clipPath id="1980">
+                <use xlink:href="#1980"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+    <div class="year eighteenth">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
+        <style type="text/css">
+        .year .stroke {
+            clip-path: url(#NOW);
+        }
+        </style>
+        <g>
+            <defs>
+                <path id="NOW" d="M17.3,40.3c0.4,0,0.6,0.1,0.6,0.6v1.8c0,0.3-0.1,0.4-0.3,0.5l-7.7,4.5c-1,0.6-1.8,0.9-1.9,0.9h9.2
+                c0.4,0,0.6,0.1,0.6,0.6V51c0,0.4-0.2,0.6-0.6,0.6H2.7c-0.4,0-0.6-0.1-0.6-0.6v-1.8c0-0.3,0.1-0.4,0.2-0.5l8-4.7
+                c0.7-0.4,1.6-0.8,1.6-0.8H2.7c-0.4,0-0.6-0.1-0.6-0.6v-1.8c0-0.4,0.2-0.6,0.6-0.6H17.3z M5.7,36.1c-1.9,0-3.8-1.4-3.8-5.6
+                s1.8-5.6,3.8-5.6h8.6c1.9,0,3.8,1.4,3.8,5.6s-1.8,5.6-3.8,5.6H5.7z M6.3,28c-1.2,0-1.7,0.9-1.7,2.5S5.1,33,6.3,33h7.5
+                c1.2,0,1.7-0.9,1.7-2.5S14.9,28,13.7,28H6.3z M10.6,9c0.8-0.2,2.1-0.3,2.3-0.4c-0.2,0-1.3-0.2-2.3-0.4l-7.9-2
+                C2.3,6.1,2.1,5.9,2.1,5.5V3.8c0-0.4,0.2-0.5,0.6-0.4L17.3,7c0.4,0.1,0.6,0.3,0.6,0.7v2c0,0.3-0.2,0.6-0.6,0.6l-8.1,2
+                c-0.5,0.1-1.9,0.3-2.1,0.3c0.2,0,1.6,0.2,2.1,0.3l8.1,2c0.4,0.1,0.6,0.3,0.6,0.7v2c0,0.3-0.2,0.6-0.6,0.6L2.7,22.1
+                c-0.4,0.1-0.6,0-0.6-0.4v-2.1c0-0.4,0.2-0.6,0.6-0.7l7.9-1.9c0.9-0.2,1.9-0.4,1.9-0.4s-0.8-0.1-1.9-0.4l-7.9-2
+                c-0.4-0.1-0.6-0.3-0.6-0.7v-1.9c0-0.4,0.2-0.6,0.6-0.7L10.6,9z"/>
+            </defs>
+            <clipPath id="NOW">
+                <use xlink:href="#NOW"  style="overflow:visible;"/>
+            </clipPath>
+            <rect class="stroke" width="20" height="136.7"/>
+        </g>
+        </svg>
+    </div>
+</div>
+<div class="button-container">
+  <a class="button" href="#" id="buttonup"></a>
+  <a class="button" href="#" id="buttondn"></a>
+</div>
+<a href="#cd-nav" class="cd-nav-trigger">Menu 
+    <span class="cd-nav-icon"></span>
+</a>
+<div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
+                <h2>Navigation</h2>
+
+                <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="#0" class="selected">The team</a></li>
+                        <li><a href="#0">Our services</a></li>
+                        <li><a href="#0">Our projects</a></li>
+                        <li><a href="#0">Start a project</a></li>
+                        <li><a href="#0">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div><!-- .cd-half-block -->
+            
+            <div class="cd-half-block">
+                <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="mailto:info@myemail.co">info@myemail.co</a></li>
+                        <li>0244-12345678</li>
+                        <li>
+                            <span>MyStreetName 24</span>
+                            <span>W1234X</span>
+                            <span>London, UK</span>
+                        </li>
+                    </ul>
+                </address>
+            </div> <!-- .cd-half-block -->
+        </div> <!-- .cd-navigation-wrapper -->
+</div> <!-- .cd-nav -->
+
+</body>
+</html>
