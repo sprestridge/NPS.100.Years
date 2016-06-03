@@ -940,3 +940,22 @@ h1 {
     margin: 0;
     font-size: 1.2em;
 }
+
+.section .list.small .item .item-year {
+    line-height: 1.5em;
+    letter-spacing: .5px;
+    font-size: 0.8em;
+}
+.section .list.small .item .info {
+    font-size: 0.8em;
+}
+.section .list.small .item .info .name {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+.section .list.small .item .info .name h2 {
+    font-size:2em;
+}
+.section .list.small .item .info .state p {
+    font-size: 1.2em;
+}

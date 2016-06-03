@@ -2840,7 +2840,7 @@ $(document).ready(function() {
             /* 3rd Slide */
 
             if(index == 3){
-                $( "body" ).find('#right-content').css( "background-image", "url(img/glacier-river.jpg)" );
+                $( "body" ).find('#right-content').css( "background-image", "url(img/glacier-lake.jpg)" );
             }
             if(index == 3){
                 $('#section2 .svg-container').addClass('active');
@@ -2855,7 +2855,7 @@ $(document).ready(function() {
             /* 4th Slide */
 
             if(index == 4){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+                $( "body" ).find('#right-content').css( "background-image", "url(img/roosevelt-sitting.jpg)" );
             }
             if(index == 4){
                 $('#section3 .svg-container').addClass('active');
@@ -2874,7 +2874,7 @@ $(document).ready(function() {
             /* 5th Slide */
 
             if(index == 5){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+                $( "body" ).find('#right-content').css( "background-image", "url(img/grand-canyon.jpg)" );
             }
             if(index == 5){
                 $('#section4 .svg-container').addClass('active');
@@ -2889,7 +2889,7 @@ $(document).ready(function() {
             /* 6th Slide */
 
             if(index == 6){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+                $( "body" ).find('#right-content').css( "background-image", "url(img/grand-teton.jpg)" );
             }
             if(index == 6){
                 $('#section5 .svg-container').addClass('active');
