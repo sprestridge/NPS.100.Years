@@ -2799,9 +2799,9 @@
 });
 $(document).ready(function() {
         $( document ).ready(function() {
-            $('#section0 .date').addClass('active');
-            $('#section0 .svg-container').addClass('active');
-            $('#section0 .intro.first').addClass('active');
+            $('#sectionintro .svg-container').addClass('active');
+            $('#sectionintro .intro.first').addClass('active');
+            $('.year.first').addClass('active');
         });
         $('#fullpage').fullpage({
             autoScrolling: false,
@@ -2810,109 +2810,138 @@ $(document).ready(function() {
 
             //using index
 
+            if(index == 1){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/yellowstone-thermal.jpg)" ),
+                $('#right-content .info.first').addClass('active');
+            }
+            else{
+                $('#right-content .info.first').removeClass('active');
+            }
+
             /* 1st Slide */
 
-            if(index == 1){
-                $( "body" ).find('#right-content').css( "background-image", "url(img/yellowstone-thermal.jpg)" );
-            }
-            if(index == 1){
+            if(index == 2){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/yellowstone-thermal.jpg)" ),
+                $('#section0 .svg-container').addClass('active'),
+                $('#section0 .date').addClass('active');
                 $('.year.first').addClass('active');
             }
             else{
                 $('.year.first').removeClass('active');
             }
 
+
             /* 2nd Slide */
 
-            if(index == 2){
-                $( "body" ).find('#right-content').css( "background-image", "url(img/yosemite-rock.jpg)" );
-            }
-            if(index == 2){
+            if(index == 3){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/yosemite-rock.jpg)" ),
                 $('#section1 .svg-container').addClass('active');
             }
-            if(index == 2){
+            if(index == 3){
                 $('.year.second').addClass('active');
             }
             else{
                 $('.year.second').removeClass('active');
             }
+            if(index == 3){
+                $('#right-content .info.second').addClass('active');
+            }
+            else{
+                $('#right-content .info.second').removeClass('active');
+            }
 
             /* 3rd Slide */
 
-            if(index == 3){
+            if(index == 4){
                 $( "body" ).find('#right-content').css( "background-image", "url(img/glacier-lake.jpg)" );
             }
-            if(index == 3){
+            if(index == 4){
                 $('#section2 .svg-container').addClass('active');
             }
-            if(index == 3){
+            if(index == 4){
                 $('.year.third').addClass('active');
             }
             else{
                 $('.year.third').removeClass('active');
             }
+            if(index == 4){
+                $('#right-content .info.third').addClass('active');
+            }
+            else{
+                $('#right-content .info.third').removeClass('active');
+            }
+
 
             /* 4th Slide */
 
-            if(index == 4){
+            if(index == 5){
                 $( "body" ).find('#right-content').css( "background-image", "url(img/roosevelt-sitting.jpg)" );
-            }
-            if(index == 4){
                 $('#section3 .svg-container').addClass('active');
-            }
-            if(index == 4){
                 $('#section3 .date').addClass('active');
-            }
-            if(index == 4){
                 $('.year.fourth').addClass('active');
             }
             else{
                 $('.year.fourth').removeClass('active');
             }
+            if(index == 5){
+                $('#right-content .info.fourth').addClass('active');
+            }
+            else{
+                $('#right-content .info.fourth').removeClass('active');
+            }
 
 
             /* 5th Slide */
 
-            if(index == 5){
-                $( "body" ).find('#right-content').css( "background-image", "url(img/grand-canyon.jpg)" );
+            if(index == 6){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/grand-canyon-2.jpg)" );
             }
-            if(index == 5){
+            if(index == 6){
                 $('#section4 .svg-container').addClass('active');
             }
-            if(index == 5){
+            if(index == 6){
                 $('.year.fifth').addClass('active');
             }
             else{
                 $('.year.fifth').removeClass('active');
             }
+            if(index == 6){
+                $('#right-content .info.fifth').addClass('active');
+            }
+            else{
+                $('#right-content .info.fifth').removeClass('active');
+            }
 
             /* 6th Slide */
 
-            if(index == 6){
+            if(index == 7){
                 $( "body" ).find('#right-content').css( "background-image", "url(img/grand-teton.jpg)" );
             }
-            if(index == 6){
+            if(index == 7){
                 $('#section5 .svg-container').addClass('active');
             }
-            if(index == 6){
+            if(index == 7){
                 $('.year.sixth').addClass('active');
             }
             else{
                 $('.year.sixth').removeClass('active');
             }
+            if(index == 7){
+                $('#right-content .info.sixth').addClass('active');
+            }
+            else{
+                $('#right-content .info.sixth').removeClass('active');
+            }
 
             /* 7th Slide */
 
-            if(index == 7){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 7){
+            if(index == 8){
                 $('#section6 .svg-container').addClass('active');
             }
-            if(index == 7){
+            if(index == 8){
                 $('#section6 .date').addClass('active');
             }
-            if(index == 7){
+            if(index == 8){
                 $('.year.seventh').addClass('active');
             }
             else{
@@ -2921,31 +2950,34 @@ $(document).ready(function() {
 
             /* 8th Slide */
 
-            if(index == 8){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+            if(index == 9){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/smoky-mountains.jpg)" );
             }
-            if(index == 8){
+            if(index == 9){
                 $('#section7 .svg-container').addClass('active');
             }
-            if(index == 8){
+            if(index == 9){
                 $('.year.eighth').addClass('active');
             }
             else{
                 $('.year.eighth').removeClass('active');
             }
+            if(index == 9){
+                $('#right-content .info.seventh').addClass('active');
+            }
+            else{
+                $('#right-content .info.seventh').removeClass('active');
+            }
 
             /* 9th Slide */
 
-            if(index == 9){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 9){
+            if(index == 10){
                 $('#section8 .svg-container').addClass('active');
             }
-            if(index == 9){
+            if(index == 10){
                 $('#section8 .date').addClass('active');
             }
-            if(index == 9){
+            if(index == 10){
                 $('.year.ninth').addClass('active');
             }
             else{
@@ -2954,31 +2986,37 @@ $(document).ready(function() {
 
             /* 10th Slide */
 
-            if(index == 10){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+            if(index == 11){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/big-bend.jpg)" );
             }
-            if(index == 10){
+            if(index == 11){
                 $('#section9 .svg-container').addClass('active');
             }
-            if(index == 10){
+            if(index == 11){
                 $('.year.tenth').addClass('active');
             }
             else{
                 $('.year.tenth').removeClass('active');
             }
+            if(index == 11){
+                $('#right-content .info.eighth').addClass('active');
+            }
+            else{
+                $('#right-content .info.eighth').removeClass('active');
+            }
 
             /* 11th Slide */
 
-            if(index == 11){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
+            if(index == 12){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/big-bend.jpg)" );
             }
-            if(index == 11){
+            if(index == 12){
                 $('#section10 .svg-container').addClass('active');
             }
-            if(index == 11){
+            if(index == 12){
                 $('#section10 .date').addClass('active');
             }
-            if(index == 11){
+            if(index == 12){
                 $('.year.eleventh').addClass('active');
             }
             else{
@@ -2987,31 +3025,28 @@ $(document).ready(function() {
 
             /* 12th Slide */
 
-            if(index == 12){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 12){
+            if(index == 13){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/canyonlands.jpg)" ),
                 $('#section11 .svg-container').addClass('active');
             }
-            if(index == 12){
+            if(index == 13){
                 $('.year.twelfth').addClass('active');
             }
             else{
                 $('.year.twelfth').removeClass('active');
             }
+            if(index == 13){
+                $('#right-content .info.ninth').addClass('active');
+            }
+            else{
+                $('#right-content .info.ninth').removeClass('active');
+            }
 
             /* 13th Slide */
 
-            if(index == 13){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 13){
-                $('#section12 .svg-container').addClass('active');
-            }
-            if(index == 13){
+            if(index == 14){
+                $('#section12 .svg-container').addClass('active'),
                 $('#section12 .date').addClass('active');
-            }
-            if(index == 13){
                 $('.year.thirteenth').addClass('active');
             }
             else{
@@ -3020,31 +3055,30 @@ $(document).ready(function() {
 
             /* 14th Slide */
 
-            if(index == 14){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 14){
+            if(index == 15){
+                $( "body" ).find('#right-content').css( "background-image", "url(img/redwood-path.jpg)" ),
                 $('#section13 .svg-container').addClass('active');
-            }
-            if(index == 14){
                 $('.year.fourteenth').addClass('active');
             }
             else{
                 $('.year.fourteenth').removeClass('active');
             }
+            if(index == 15){
+                $('#right-content .info.tenth').addClass('active');
+            }
+            else{
+                $('#right-content .info.tenth').removeClass('active');
+            }
 
             /* 15th Slide */
 
-            if(index == 15){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 15){
+            if(index == 16){
                 $('#section14 .svg-container').addClass('active');
             }
-            if(index == 15){
+            if(index == 16){
                 $('#section14 .date').addClass('active');
             }
-            if(index == 15){
+            if(index == 16){
                 $('.year.fifteenth').addClass('active');
             }
             else{
@@ -3053,13 +3087,10 @@ $(document).ready(function() {
 
             /* 16th Slide */
 
-            if(index == 16){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 16){
+            if(index == 17){
                 $('#section15 .svg-container').addClass('active');
             }
-            if(index == 16){
+            if(index == 17){
                 $('.year.sixteenth').addClass('active');
             }
             else{
@@ -3068,13 +3099,10 @@ $(document).ready(function() {
 
             /* 17th Slide */
 
-            if(index == 17){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 17){
+            if(index == 18){
                 $('#section16 .svg-container').addClass('active');
             }
-            if(index == 17){
+            if(index == 18){
                 $('.year.seventeenth').addClass('active');
             }
             else{
@@ -3083,13 +3111,10 @@ $(document).ready(function() {
 
             /* 18th Slide */
 
-            if(index == 18){
-                $( "body" ).find('#right-content').css( "background-color", "green" );
-            }
-            if(index == 18){
+            if(index == 19){
                 $('#section17 .svg-container').addClass('active');
             }
-            if(index == 18){
+            if(index == 19){
                 $('.year.eighteenth').addClass('active');
             }
             else{

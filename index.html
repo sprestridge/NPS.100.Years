@@ -38,13 +38,6 @@
                     var loadedSection = $(this);
                 }
             });
-            
-            $('#buttondn').click(function(){
-                $.fn.fullpage.moveSectionDown();
-            });
-            $('#buttonup').click(function(){
-                $.fn.fullpage.moveSectionUp();
-            });
 
             $(document).keydown(function (e) {
             var shiftPressed = e.shiftKey;
@@ -71,8 +64,25 @@
 <body>
 
 <div id="fullpage">
+    <div class="section" id="sectionintro">
+        <div class="intro event first">
+            <div class="svg-container">
+                <svg height="1200" width="1" class="line">
+                  <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
+                </svg>
+            </div>
+            <h1>100 Years of National Parks Service</h1>
+        </div>
+        <div class="arrows">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 60" style="enable-background:new 0 0 40 60;" xml:space="preserve">
+                <polygon class="first" points="1,1 20.2,22.5 38.8,1 "/>
+                <polygon class="second" points="1,1 20.2,22.5 38.8,1 "/>
+            </polygon>
+            </svg>
+        </div>
+    </div>
     <div class="section" id="section0">
-        <div class="intro first">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="1200" width="1" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -100,28 +110,30 @@
         </div>
         <div class="intro">
             <div class="list">
-                <div class="item one">
+                <div class="item one california">
                     <div class="item-year">1890</div>
                     <div class="info">
                         <div class="name"><h2>Yosemite</h2></div>
                         <div class="state"><p>California</p></div>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non risus varius.
+                        </p>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two california">
                     <div class="item-year">1890</div>
                     <div class="info">
                         <div class="name"><h2>Sequoia</h2></div>
                         <div class="state"><p>California</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr washington">
                     <div class="item-year">1899</div>
                     <div class="info">
                         <div class="name"><h2>Mount Rainier</h2></div>
                         <div class="state"><p>Washington</p></div>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou oregon">
                     <div class="item-year">1902</div>
                     <div class="info">
                         <div class="name"><h2>Crater Lake</h2></div>
@@ -139,21 +151,21 @@
         </div>
         <div class="intro">
             <div class="list">
-                <div class="item one">
+                <div class="item one southdakota">
                     <div class="item-year">1903</div>
                     <div class="info">
                         <div class="name"><h2>Wind Cave</h2></div>
                         <div class="state"><p>South Dakota</p></div>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two colorado">
                     <div class="item-year">1906</div>
                     <div class="info">
                         <div class="name"><h2>Mesa Verde</h2></div>
                         <div class="state"><p>Colorado</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr montana">
                     <div class="item-year">1910</div>
                     <div class="info">
                         <div class="name"><h2>Glacier</h2></div>
@@ -161,7 +173,7 @@
                         <p>Soon after the establishment of the park on May 11, 1910, a number of hotels and chalets were constructed by the Great Northern Railway. These historic hotels and chalets are listed as National Historic Landmarks and a total of 350 locations are on the National Register of Historic Places.</p>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou colorado">
                     <div class="item-year">1915</div>
                     <div class="info">
                         <div class="name"><h2>Rocky Mountain</h2></div>
@@ -172,7 +184,7 @@
         </div>
     </div>
     <div class="section" id="section3">
-        <div class="intro">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="400" width="450" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -200,42 +212,42 @@
         </div>
         <div class="intro">
             <div class="list">
-                <div class="item one">
+                <div class="item one california">
                     <div class="item-year">1916</div>
                     <div class="info">
                         <div class="name"><h2>Lassen Volcanic</h2></div>
                         <div class="state"><p>California</p></div>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two hawaii">
                     <div class="item-year">1907</div>
                     <div class="info">
                         <div class="name"><h2>Hawaii Volcanoes</h2></div>
                         <div class="state"><p>Hawaii</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr hawaii">
                     <div class="item-year">1907</div>
                     <div class="info">
                         <div class="name"><h2>Haleakala</h2></div>
                         <div class="state"><p>Hawaii</p></div>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou alaska">
                     <div class="item-year">1917</div>
                     <div class="info">
                         <div class="name"><h2>Denali</h2></div>
                         <div class="state"><p>Alaska</p></div>
                     </div>
                 </div>
-                <div class="item fiv">
+                <div class="item fiv arizona">
                     <div class="item-year">1919</div>
                     <div class="info">
                         <div class="name"><h2>Grand Canyon</h2></div>
                         <div class="state"><p>Arizona</p></div>
                     </div>
                 </div>
-                <div class="item six">
+                <div class="item six utah">
                     <div class="item-year">1919</div>
                     <div class="info">
                         <div class="name"><h2>Zion</h2></div>
@@ -253,42 +265,42 @@
         </div>
         <div class="intro">
             <div class="list">
-                <div class="item one">
+                <div class="item one maine">
                     <div class="item-year">1919</div>
                     <div class="info">
                         <div class="name"><h2>Acadia</h2></div>
                         <div class="state"><p>Maine</p></div>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two arkansas">
                     <div class="item-year">1921</div>
                     <div class="info">
                         <div class="name"><h2>Hot Springs</h2></div>
                         <div class="state"><p>Arkansas</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr virginia">
                     <div class="item-year">1926</div>
                     <div class="info">
                         <div class="name"><h2>Shenandoah</h2></div>
                         <div class="state"><p>Virginia</p></div>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou utah">
                     <div class="item-year">1928</div>
                     <div class="info">
                         <div class="name"><h2>Bryce Canyon</h2></div>
                         <div class="state"><p>Utah</p></div>
                     </div>
                 </div>
-                <div class="item fiv">
+                <div class="item fiv wyoming">
                     <div class="item-year">1929</div>
                     <div class="info">
                         <div class="name"><h2>Grand Teton</h2></div>
                         <div class="state"><p>Wyoming</p></div>
                     </div>
                 </div>
-                <div class="item six">
+                <div class="item six newmexico">
                     <div class="item-year">1930</div>
                     <div class="info">
                         <div class="name"><h2>Carlsbad Caverns</h2></div>
@@ -304,7 +316,7 @@
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
                 </svg>
             </div>
-            <div class="intro">
+            <div class="intro event">
                 <div class="date">
                     <svg x="0px" y="0px" viewBox="0 0 75.3 75.3">
                     <rect x="11.5" y="11.5" class="diamond" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -15.5892 37.6357)" class="st0" width="52.2" height="52.2" fill="none" stroke="#3c2415" stroke-width="1"/>
@@ -327,25 +339,29 @@
         </div>
         <div class="intro">
             <div class="list">
-                <div class="item one">
+                <div class="item one florida">
                     <div class="item-year">1934</div>
                     <div class="info">
                         <div class="name"><h2>Everglades</h2></div>
                         <div class="state"><p>Florida</p></div>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non risus varius. Bvestibulum at eros. Vestibulum id ligula porta felis euismod semper.
+                        </p>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two tennessee">
                     <div class="item-year">1934</div>
                     <div class="info">
                         <div class="name"><h2>Great Smoky Mountains </h2></div>
                         <div class="state"><p>Tennessee</p></div>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non risus varius.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="section" id="section8">
-        <div class="intro">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="400" width="450" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -361,7 +377,7 @@
             <div class="stars">
                 <img src="svg/2-stars.svg">
             </div>
-            <p>The Historic Sites Act grew out of the National Park Service's desire for a stronger legal underpinning for its expanding historical programs and from recognition outside the Service of the need for greater federal assistance to historic properties. The Act declared "a national policy to preserve for public use historic sites, buildings and objects of national significance for the inspiration and benefit of the people of the United States." It assigned broad powers and duties to the Secretary of the Interior and the Service, to include conducting surveys of historic properties to determine which possess exceptional value as commemorating or illustrating U.S. history.
+            <p>The Historic Sites Act grew out of the National Park Service's desire for a stronger legal underpinning for its expanding historical programs and from recognition outside the Service of the need for greater federal assistance to historic properties. The Act declared "a national policy to preserve for public use historic sites, buildings and objects of national significance for the inspiration and benefit of the people of the United States." 
             </p>
         </div>
     </div>
@@ -373,53 +389,46 @@
             </svg>
         </div>
         <div class="list">
-                <div class="item one">
+                <div class="item one washington">
                     <div class="item-year">1938</div>
                     <div class="info">
                         <div class="name"><h2>Olympic</h2></div>
                         <div class="state"><p>Washington</p></div>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two california">
                     <div class="item-year">1940</div>
                     <div class="info">
                         <div class="name"><h2>Kings Canyon</h2></div>
                         <div class="state"><p>California</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr michigan">
                     <div class="item-year">1940</div>
                     <div class="info">
                         <div class="name"><h2>Isle Royale</h2></div>
                         <div class="state"><p>Michigan</p></div>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou kentucky">
                     <div class="item-year">1941</div>
                     <div class="info">
                         <div class="name"><h2>Mammoth Cave</h2></div>
                         <div class="state"><p>Kentucky</p></div>
                     </div>
                 </div>
-                <div class="item fiv">
+                <div class="item fiv texas">
                     <div class="item-year">1944</div>
                     <div class="info">
                         <div class="name"><h2>Big Bend</h2></div>
                         <div class="state"><p>Texas</p></div>
                     </div>
                 </div>
-                <div class="item six">
-                    <div class="item-year">1956</div>
-                    <div class="info">
-                        <div class="name"><h2>Virgin Islands</h2></div>
-                        <div class="state"><p>United States Virgin Islands</p></div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <div class="section" id="section10">
-        <div class="intro">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="400" width="450" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -447,28 +456,28 @@
             </svg>
             </div>
             <div class="list">
-                <div class="item one">
+                <div class="item one virginislands">
                     <div class="item-year">1956</div>
                     <div class="info">
                         <div class="name"><h2>Virgin Islands</h2></div>
                         <div class="state"><p>United States Virgin Islands</p></div>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two arizona">
                     <div class="item-year">1962</div>
                     <div class="info">
                         <div class="name"><h2>Petrified Forest</h2></div>
                         <div class="state"><p>Arizona</p></div>
                     </div>
                 </div>
-                <div class="item thr">
+                <div class="item thr utah">
                     <div class="item-year">1964</div>
                     <div class="info">
                         <div class="name"><h2>Canyonlands</h2></div>
                         <div class="state"><p>Utah</p></div>
                     </div>
                 </div>
-                <div class="item fou">
+                <div class="item fou texas">
                     <div class="item-year">1966</div>
                     <div class="info">
                         <div class="name"><h2>Guadalupe Mountains</h2></div>
@@ -479,7 +488,7 @@
         </div>
     </div>
     <div class="section" id="section12">
-        <div class="intro">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="400" width="450" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -507,25 +516,31 @@
             </svg>
             </div>
             <div class="list">
-                <div class="item one">
+                <div class="item one washington">
                     <div class="item-year">1968</div>
                     <div class="info">
                         <div class="name"><h2>North Cascades</h2></div>
                         <div class="state"><p>Washington</p></div>
+                        <p>
+                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non risus varius. Bvestibulum at eros. Vestibulum id ligula porta felis euismod semper.
+                        </p>
                     </div>
                 </div>
-                <div class="item two">
+                <div class="item two california">
                     <div class="item-year">1968</div>
                     <div class="info">
                         <div class="name"><h2>Redwood</h2></div>
                         <div class="state"><p>California</p></div>
+                        <p>
+                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non risus varius. Bvestibulum at eros. Vestibulum id ligula porta felis euismod semper.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="section" id="section14">
-        <div class="intro">
+        <div class="intro event">
             <div class="svg-container">
                 <svg height="400" width="450" class="line">
                   <path d="M 0 0 l 0 1200" stroke="#3c2415" stroke-width="1" fill="none" />
@@ -727,16 +742,55 @@
     </div>
 </div>
 <div id="right-content">
+    <div class="info first">
+        <a target="_blank" href="https://www.flickr.com/photos/yellowstonenps/22755808179/">Grand Prismatic Spring</a>
+        <p>Jim Peaco</p>
+    </div>
+    <div class="info second">
+        <a target="_blank" href="https://www.flickr.com/photos/shanelin/8998867535/in/photolist-eHcxNx-rWXW9-4RP2ee-bDBMYM-kJS5q-rWXUn-b8oYTg-mU9XE3-8DG8Wi-aGZebR-mLdTFT-mU9MMh-pASJkc-ibsnDC-6hiMY2-aME4RP-4UygQN-4DerXR-5Nsbv6-327yy4-jxVjMi-bsmb53-fiqXRE-6hnYTL-jybVK2-6LdAqX-aq2tkV-rc3Smv-6hiwgn-bTvHeF-e9MYHJ-kJS6G-327v2a-jycoXt-iVtYet-6RsmEy-32c4yo-32d3Rt-dkVVV-327YET-4RNyfg-d9Uk8b-mcn6x8-32c8ks-b8pTKt-bF226f-pRctEC-oK21Wx-6i8ikG-6hzE6A">Half Dome</a>
+        <p>Shane Lin</p>
+    </div>
+    <div class="info third">
+        <a target="_blank" href="https://www.flickr.com/photos/14723335@N05/13594886283/in/photolist-mHkm46-jMMGFQ-r6LcFH-p8k3QT-p8Sdj8-5bJTEY-8Uk294-pLLYTJ-kHLLyN-pjjKKJ-oT5bGG-jYa9B4-qs4Hxz-pru93K-nV51M4-yj1bP-irDB7u-poH5Sr-qvKoZM-e7JWdG-gTR5bL-px8c54-d9MAad-oWwRHM-npnuHj-jZ6emB-owYYs3-kTo3kJ-pn9eRC-njmo1T-cVZn1y-aAXWxj-HdrHeJ-jJSQg7-m2Hbaq-o1w6RR-jywRBx-nErjjd-oYqf3q-dFVhgc-ebaD7G-pkG9Aq-drpB9Z-ox328m-fDUQwb-kPazXa-iXWBkb-nihFQQ-8nDLCF-nmtESm">Glacier National Park</a>
+        <p>Mark Stevens</p>
+    </div>
+    <div class="info fourth">
+        <a target="_blank" href="https://www.flickr.com/photos/internetarchivebookimages/14746873106/in/photolist-ot8zAS-ouvN3y-ouHTKH-ovLnNA-owtGGe-odfdgz-owtFrP-ouHRxr-odfcvr-odei44-odefBR-osFYSd-otPd6C-oen9aD-ouGd3L-odfbcz-oemokW-ouGdyf-oetpPL-otPapL-oem8iU-osFYkm-oemwBq-ouvMiC-odehc4-ourB6P-ode3fN-ouvPLo-ouvNQq-oemfKg-kyjWeV-oc6jiP-odXorc-ovjGRX-otyTiz-oc5hPv-otmVE1-ovr9kn-odWrZt-odXkMV-ovYwVk-ouvNfh-ourCRn-odemi9-oemnMT-oemmpx-ovD1j7-ovD5Em-oxB2S8-oc55NY">Theodore Roosevelt</a>
+        <p>Chicago, S. Stone</p>
+    </div>
+    <div class="info fifth">
+        <a target="_blank" href="https://unsplash.com/photos/dS3UnDX6InQ">Grand Canyon</a>
+        <p>Jason Thompson</p>
+    </div>
+    <div class="info sixth">
+        <a target="_blank" href="https://www.flickr.com/photos/grimeshome/10338444373/in/photolist-gKzejV-p9d9DB-PQRWa-6QQaTA-ehT1fw-esaTJ3-eBQBRX-ejc9Tq-rmqAbz-gPHwi4-qioACK-peqHWD-4VHfMr-87L3bG-gZS3Ys-7eMZpE-qCT76G-o3hTZe-zqz1H-5L7veJ-dWAYCU-vv1vbA-fvQRcZ-f74zeF-a6LxgD-cpaBiU-HLFAhn-4exUZ1-oRoEWu-9PysKC-gEfnUa-52YvZE-fGFdBr-5eFKSw-fNJSN8-oN2JFr-9i5j8J-hi7oyj-pSxLuc-aA6r5a-3guyGs-pMKgJy-976SzW-HLFzvx-AqyLm-fBHP2y-a6qSqY-ek9Djt-cmwq59-dGpWDy">Grand Teton National Park</a>
+        <p>David Grimes</p>
+    </div>
+    <div class="info seventh">
+        <a target="_blank" href="https://www.flickr.com/photos/coloneljohnbritt/15577166641/in/photolist-pJv3WD-8nfDXr-nuVmaA-ehnBoT-aASZ82-hjPiUH-sp4MqU-qTswdZ-dCc7hi-kXuv8W-ruWHJ6-eUbg7W-fE85KL-heZ7TK-scQkNj-eg5pVb-f629QN-kbok76-rrKFdA-heozea-dWAQux-fJyG9N-h8hts6-hd35VR-ij2VQq-az4Vtf-jZ9RSg-pHiC4B-dfoULC-qqivXa-7Sj5dz-ka6oTH-jZ8NwH-iS8RF-ntG5Lc-bMqFjk-hpFT3b-hL5hnA-hB4jjq-eVNocb-qBw3hT-ocC4R6-eXCtdc-8E9Nou-cq5a1q-fgsgFA-dFMGd6-hbntaK-8Ea2zS-oJy6ep">Great Smoky Mountains</a>
+        <p>John Britt</p>
+    </div>
+    <div class="info eighth">
+        <a target="_blank" href="https://unsplash.com/photos/7V78KRaWMKQ">Big Bend National Park</a>
+        <p>Jesse Sewell</p>
+    </div>
+    <div class="info ninth">
+        <a target="_blank" href="https://www.flickr.com/photos/wherezjeff/15246829727/in/photolist-peiZhB-pnqs45-qoaqGs-qRZHSX-ddgVXC-puenEz-pfFZQT-pBZZia-hcipyu-8q7cbP-icdRwU-ddgBQx-vPg4y-sszEAD-ah17U3-pTNf69-s5XvqN-81sz6n-rt18xL-nss393-gEhwex-nssihQ-nsrZ5f-jemmXc-hQ8L9f-6goxm7-csR5yU-pXefUz-f5cHio-C2YsDB-b7asEa-nJCU6n-nss3vf-nsseP7-svPPdR-a1BS56-btnwgw-js7h73-jeow59-nLJUEr-nJLoAq-pqBpbJ-nJLVNW-jYhhjB-iaA3yn-nJLhgS-a1ECwu-nsrZvC-oZbp7z-piqJBi">Canyonlands National Park</a>
+        <p>Jeff Wallace</p>
+    </div>
+    <div class="info tenth">
+        <a target="_blank" href="https://www.flickr.com/photos/justininsd/10348762874/in/photolist-gLu7E7-2t8zR6-jEirvj-r9yfGi-seGBQe-byWbAf-rZNH4C-bMQWYr-8nmiHi-dQJdZV-bpoACd-cVQ5YJ-czaUUf-47uqN2-jhPqT7-o7LKeK-52Fj23-44gByK-72BDeP-rorxCN-pLihrJ-4oLUS-bMQW6z-q2qhUD-bMQLWZ-oxviRi-fM3ZDs-pLc2jT-in7Baa-fSeckF-byW9ej-aa5DG-bMQZcV-bCP1EC-byWcud-pLkSva-byWd4b-5dkPZG-5s8R6m-rwtYVf-bMQV3p-rk272G-ejJ2Wd-byWg33-h4P5wa-4PjpNQ-5CWExT-7oZuXN-q3FCW8-dNJpJ5">Redwood National Park</a>
+        <p>Justin Brown</p>
+    </div>
+    <div class="info eleventh">
+        <a target="_blank" href="https://www.flickr.com/photos/yellowstonenps/22755808179/">Grand Prismatic Spring</a>
+        <p>Jim Peaco</p>
+    </div>
 </div>
 <div class="timeline">
     <div class="year first">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 20 136.7" style="enable-background:new 0 0 20 136.7;" xml:space="preserve">
-        <style type="text/css">
-        .year.first .stroke {
-            clip-path: url(#1872);
-        }
-        </style>
         <g>
             <defs>
                 <path id="1872" d="M1,50.7c0-0.3,0-0.6,0.6-0.6h13.3V47c0-0.4,0.1-0.6,0.6-0.6H17c0.4,0,0.6,0.2,0.6,0.6v9.7
@@ -1253,40 +1307,5 @@
         </svg>
     </div>
 </div>
-<a href="#cd-nav" class="cd-nav-trigger">Menu 
-    <span class="cd-nav-icon"></span>
-</a>
-<div id="cd-nav" class="cd-nav">
-        <div class="cd-navigation-wrapper">
-            <div class="cd-half-block">
-                <h2>Navigation</h2>
-
-                <nav>
-                    <ul class="cd-primary-nav">
-                        <li><a href="#0" class="selected">The team</a></li>
-                        <li><a href="#0">Our services</a></li>
-                        <li><a href="#0">Our projects</a></li>
-                        <li><a href="#0">Start a project</a></li>
-                        <li><a href="#0">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div><!-- .cd-half-block -->
-            
-            <div class="cd-half-block">
-                <address>
-                    <ul class="cd-contact-info">
-                        <li><a href="mailto:info@myemail.co">info@myemail.co</a></li>
-                        <li>0244-12345678</li>
-                        <li>
-                            <span>MyStreetName 24</span>
-                            <span>W1234X</span>
-                            <span>London, UK</span>
-                        </li>
-                    </ul>
-                </address>
-            </div> <!-- .cd-half-block -->
-        </div> <!-- .cd-navigation-wrapper -->
-</div> <!-- .cd-nav -->
-
 </body>
 </html>
