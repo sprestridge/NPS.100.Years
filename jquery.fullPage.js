@@ -2803,6 +2803,12 @@ $(document).ready(function() {
             $('#sectionintro .intro.first').addClass('active');
             $('.year.first').addClass('active');
         });
+        $.preloadImages = function() {
+          for (var i = 0; i < arguments.length; i++) {
+            $("<img />").attr("src", arguments[i]);
+          }
+        }
+        $.preloadImages("img/yellowstone-thermal.jpg","img/yosemite-rock.jpg","img/big-bend.jpg","img/canyonlands.jpg","img/grand-canyon-2.jpg","img/grand-teton.jpg","img/great-sand-dunes.jpg","img/hawaii-volcano.jpg","img/redwood-path.jpg","img/roosevelt-sitting.jpg","img/smoky-mountains.jpg");
         $('#fullpage').fullpage({
             autoScrolling: false,
             afterLoad: function(anchorLink, index){
@@ -2811,11 +2817,11 @@ $(document).ready(function() {
             //using index
 
             if(index == 1){
-                $( "body" ).find('#right-content').css( "background-image", "url(img/yellowstone-thermal.jpg)" ),
-                $('#right-content .info.first').addClass('active');
+                $( "body" ).find('#right-content').css( "background-image", "url(img/double-arch.jpg)" ),
+                $('#right-content .info.default').addClass('active');
             }
             else{
-                $('#right-content .info.first').removeClass('active');
+                $('#right-content .info.default').removeClass('active');
             }
 
             /* 1st Slide */
@@ -2825,9 +2831,11 @@ $(document).ready(function() {
                 $('#section0 .svg-container').addClass('active'),
                 $('#section0 .date').addClass('active');
                 $('.year.first').addClass('active');
+                $('#right-content .info.first').addClass('active');
             }
             else{
                 $('.year.first').removeClass('active');
+                $('#right-content .info.first').removeClass('active');
             }
 
 
@@ -3101,12 +3109,19 @@ $(document).ready(function() {
 
             if(index == 18){
                 $('#section16 .svg-container').addClass('active');
+                $( "body" ).find('#right-content').css( "background-image", "url(img/great-sand-dunes.jpg)" );
             }
             if(index == 18){
                 $('.year.seventeenth').addClass('active');
             }
             else{
                 $('.year.seventeenth').removeClass('active');
+            }
+            if(index == 18){
+                $('#right-content .info.twelfth').addClass('active');
+            }
+            else{
+                $('#right-content .info.twelfth').removeClass('active');
             }
 
             /* 18th Slide */
@@ -3120,24 +3135,6 @@ $(document).ready(function() {
             else{
                 $('.year.eighteenth').removeClass('active');
             }
-        }
-    });
-});
-jQuery(document).ready(function($){
-    var isLateralNavAnimating = false;
-    
-    //open/close lateral navigation
-    $('.cd-nav-trigger').on('click', function(event){
-        event.preventDefault();
-        //stop if nav animation is running 
-        if( !isLateralNavAnimating ) {
-            if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true; 
-            
-            $('body').toggleClass('navigation-is-open');
-            $('.cd-navigation-wrapper').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-                //animation is over
-                isLateralNavAnimating = false;
-            });
         }
     });
 });
