@@ -2801,7 +2801,6 @@ $(document).ready(function() {
         $( document ).ready(function() {
             $('#sectionintro .svg-container').addClass('active');
             $('#sectionintro .intro.first').addClass('active');
-            $('.year.first').addClass('active');
         });
         $.preloadImages = function() {
           for (var i = 0; i < arguments.length; i++) {
