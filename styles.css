@@ -1014,6 +1014,22 @@ h1 {
   }
   h2 {
     font-size: 0.8em;
+    line-height: 1em;
+  }
+  .section .date span {
+    padding-top: 22px;
+    display: block;
+    font-size: .7em;
+  }
+  .section .date {
+    width: 56px;
+    height: 56px;
+  }
+  .section .list .item {
+    margin: .2em 0;
+  }
+  p {
+    line-height: 1.6em;
   }
 }
 
