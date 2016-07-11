@@ -3123,6 +3123,7 @@ $(document).ready(function() {
                 $('#right-content .info.twelfth').removeClass('active');
             }
 
+
             /* 18th Slide */
 
             if(index == 19){

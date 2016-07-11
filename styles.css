@@ -397,6 +397,9 @@ a.button:hover {
 .year.seventeenth {
     top:89.42%;
 }
+.year.eighteenth {
+    top:94.68%;
+}
 
 /* intro animation */
 
@@ -462,7 +465,7 @@ a.button:hover {
   clip-path: url(#1980);
 }
 .year.eighteenth .stroke {
-  clip-path: url(#NOW);
+  clip-path: url(#2016);
 }
 .year.active .stroke {
    transform: translate(0px, 0px);
