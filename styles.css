@@ -1012,6 +1012,9 @@ h1 {
   .section .list .item .item-year {
     width: 15%;
   }
+  h2 {
+    font-size: 0.8em;
+  }
 }
 
 @-moz-document url-prefix() { 
