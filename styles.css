@@ -1003,6 +1003,15 @@ h1 {
   #right-content {
     display:none;
   }
+  .section {
+    padding: 0 8%;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .section .list .item .item-year {
+    width: 15%;
+  }
 }
 
 @-moz-document url-prefix() { 
