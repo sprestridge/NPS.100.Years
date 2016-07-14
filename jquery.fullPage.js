@@ -2801,6 +2801,7 @@ $(document).ready(function() {
         $( document ).ready(function() {
             $('#sectionintro .svg-container').addClass('active');
             $('#sectionintro .intro.first').addClass('active');
+
         });
         $.preloadImages = function() {
           for (var i = 0; i < arguments.length; i++) {
@@ -3128,6 +3129,7 @@ $(document).ready(function() {
 
             if(index == 19){
                 $('#section17 .svg-container').addClass('active');
+                $('#section17 .84').addClass('active');
             }
             if(index == 19){
                 $('.year.eighteenth').addClass('active');
