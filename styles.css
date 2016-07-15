@@ -1045,7 +1045,7 @@ h1 {
     font-size: 2.5em;
   }
   .section .list .item .item-year {
-    width: 15%;
+    width: 12%;
   }
   h2 {
     font-size: 0.8em;
@@ -1065,6 +1065,9 @@ h1 {
   }
   p {
     line-height: 1.6em;
+  }
+  .section .list .item {
+    background-size: 40px 60px;
   }
 }
 
