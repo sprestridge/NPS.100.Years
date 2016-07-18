@@ -3097,12 +3097,19 @@ $(document).ready(function() {
 
             if(index == 17){
                 $('#section15 .svg-container').addClass('active');
+                $( "body" ).find('#right-content').css( "background-image", "url(img/channel-islands.jpg)" );
             }
             if(index == 17){
                 $('.year.sixteenth').addClass('active');
             }
             else{
                 $('.year.sixteenth').removeClass('active');
+            }
+            if(index == 17){
+                $('#right-content .info.thirteenth').addClass('active');
+            }
+            else{
+                $('#right-content .info.thirteenth').removeClass('active');
             }
 
             /* 17th Slide */
@@ -3130,12 +3137,19 @@ $(document).ready(function() {
             if(index == 19){
                 $('#section17 .svg-container').addClass('active');
                 $('#section17 .84').addClass('active');
+                $( "body" ).find('#right-content').css( "background-image", "url(img/badlands.jpg)" );
             }
             if(index == 19){
                 $('.year.eighteenth').addClass('active');
             }
             else{
                 $('.year.eighteenth').removeClass('active');
+            }
+            if(index == 19){
+                $('#right-content .info.fourteenth').addClass('active');
+            }
+            else{
+                $('#right-content .info.fourteenth').removeClass('active');
             }
         }
     });
